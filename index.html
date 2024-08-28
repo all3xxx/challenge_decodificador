@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho2">
+        <img src="./assets/logo_A.png" alt="Logo da Alura">
+    </header>
+    <main class="programa">
+        
+        <section class="programa_texto_original"> 
+            <div>
+                <input type="text" id="inputText" placeholder="Digite seu texto" style="border: none; width: 500px; height: -500vh; font-size: 24px; background-color: #F3F5FC; outline: none; margin-bottom: 500px;">
+            </div>
+            <div class="caixa3">
+                
+                <p class="programa_texto_original_atecao"> <img src="./assets/atencao.png" alt="Atenção"> Apenas letras minúsculas e sem acento.</p>
+                <br>
+                <Section class="programa_texto_original_botoes"> 
+                <button class="criptografa" onclick="criptografar()">Criptografar</button>
+                <button class="descriptografa" onclick="descriptografar()">Descriptografar</button>
+            </div>
+            
+        </section>
+        <section class="programa_texto_codificado">
+            <img class= "imagem_boneca" src="./assets/boneca.png" alt="imagem de uma moça segurando uma lupa">
+            <div class="caixa">
+                <p class="alerta1" id="alerta1"> Nenhuma mensagem encontrada</p>
+                <br>
+                <p class="alerta2" id="alerta2"> Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            
+            <!-- <button class="Copiar" onclick="copiar()">Copiar</button> -->
+        </section>
+        
+
+        <script src="app.js"></script>
+
+    </main>
+   <footer><br></footer>
+
+</body>
+</html>
